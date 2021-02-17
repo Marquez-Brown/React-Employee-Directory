@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/Employee-Tracking-System/static/js/main.ef830d65.chunk.js",
+    "main.js.map": "/Employee-Tracking-System/static/js/main.ef830d65.chunk.js.map",
+    "runtime-main.js": "/Employee-Tracking-System/static/js/runtime-main.d8889bb9.js",
+    "runtime-main.js.map": "/Employee-Tracking-System/static/js/runtime-main.d8889bb9.js.map",
+    "static/js/2.ea5413bf.chunk.js": "/Employee-Tracking-System/static/js/2.ea5413bf.chunk.js",
+    "static/js/2.ea5413bf.chunk.js.map": "/Employee-Tracking-System/static/js/2.ea5413bf.chunk.js.map",
+    "static/js/3.a4cfc9ee.chunk.js": "/Employee-Tracking-System/static/js/3.a4cfc9ee.chunk.js",
+    "static/js/3.a4cfc9ee.chunk.js.map": "/Employee-Tracking-System/static/js/3.a4cfc9ee.chunk.js.map",
+    "index.html": "/Employee-Tracking-System/index.html",
+    "static/js/2.ea5413bf.chunk.js.LICENSE.txt": "/Employee-Tracking-System/static/js/2.ea5413bf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8889bb9.js",
+    "static/js/2.ea5413bf.chunk.js",
+    "static/js/main.ef830d65.chunk.js"
+  ]
+}
