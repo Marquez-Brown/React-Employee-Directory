@@ -1,13 +1,13 @@
 import React from "react";
 
-const EmployeeRow = ({ Image, Name, Phone, Email, DOB }) => {
+const EmployeeRow = ({ picture, name, phone, email, dob }) => {
   return (
     <tr>
-      <td><img src={Image} alt=""/></td>
-      <td>{Name}</td>
-      <td>{Phone}</td>
-      <td>{Email}</td>
-      <td>{DOB}</td>
+      <td><img src={picture} alt=""/></td>
+      <td>{name}</td>
+      <td>{phone}</td>
+      <td>{email}</td>
+      <td>{dob}</td>
     </tr>
   );
 };

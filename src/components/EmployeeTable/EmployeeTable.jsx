@@ -9,7 +9,7 @@ class EmployeeTable extends Component {
     employee: [],
     filterEmployees: [],
   };
-};
+
 
 componentDidMount() {
   this.getEmployees();
@@ -21,18 +21,11 @@ getEmployees = () => {
     .then((response) => {
       this.setState({
         employee: response.data.results,
-        filteredEmployee: response.data.results,
+        filteredEmployee: response.data.filter.results,
       });
     });
 };
 
-
-  handleInputChange = (e) => {
-    const { name, value } = e.target;
-    this.setState({
-      [name]: value,
-    });
-  }
 
   render() {
     return (
@@ -43,7 +36,7 @@ getEmployees = () => {
             <table className="table">
               <thead>
                 <tr>
-                  <th scope="col">Image</th>
+                  <th scope="col">Picture</th>
                   <th scope="col">Name</th>
                   <th scope="col">Phone</th>
                   <th scope="col">Email</th>
@@ -51,7 +44,7 @@ getEmployees = () => {
                 </tr>
               </thead>
               <tbody>
-              <EmployeeRow employee= {this.state.employee}/>
+              <EmployeeRow employee={this.state.filterEmployee}/>
               </tbody>
             </table>
           </div>
