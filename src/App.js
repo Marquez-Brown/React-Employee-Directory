@@ -1,4 +1,4 @@
-import Items from "./components/Items/Items";
+import EmployeeTable from "./components/EmployeeTable/EmployeeTable";
 import Navbar from "./components/Navbar/Navbar";
 import Dropdown from "./Searchbar/Searchbar";
 
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Dropdown/>
-      <Items/>
+      <EmployeeTable/>
     </div>
   );
 }
