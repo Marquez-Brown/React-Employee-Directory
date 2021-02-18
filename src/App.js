@@ -1,9 +1,12 @@
 import Items from "./components/Items/Items";
+import Navbar from "./components/Navbar/Navbar";
+import Dropdown from "./Searchbar/Searchbar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <Navbar/>
+      <Dropdown/>
       <Items/>
     </div>
   );

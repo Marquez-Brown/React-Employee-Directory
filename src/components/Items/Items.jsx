@@ -36,7 +36,7 @@ class Items extends Component {
               </thead>
               <tbody>
                 {this.state.items.map((item) => (
-                 <ItemRow {...item}/>
+                 <ItemRow {...item} key={item.id}/>
                 ))}
               </tbody>
             </table>
